@@ -1,4 +1,4 @@
-package comp840project;
+package comp830730project;
 
 import java.util.Scanner;
 
