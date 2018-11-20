@@ -1,15 +1,20 @@
-package comp830730project;
+package comp840project;
 
 import java.util.Scanner;
 
 public class ChooseLevel {
 
+	public static ChooseLevel getInstance( ) {
+		ChooseLevel l = new ChooseLevel( );
+		return l;
+		}
+
 	public static void main(String[] args)
 	{
-		//Player p = new Player();
+		Player p;
 
 		Scanner scanner = new Scanner(System.in);
-		boolean signedIn = true;
+		boolean signedIn;
 
 		while (signedIn= true) {
 			System.out.println("Choose a level: Easy, Medium, Hard");
