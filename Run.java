@@ -14,15 +14,15 @@ public class Run {
 
 		while (signedIn == false)
 		{
-		System.out.print("Hello! Please enter in a username: ");
+		System.out.print("Hello! Please enter in a username: " + "\n");
 		user = signIn.nextLine();
 		if (user.length() < 3) {
-			System.out.print("Please pick a username that is at least 3 characters long. ");
+			System.out.print("Please pick a username that is at least 3 characters long. " + "\n");
 			signedIn = false;
 		}
 			else {
 				signedIn = true;
-				System.out.print("Welcome " + user + " enjoy the game!");
+				System.out.print("Welcome " + user + " enjoy the game!" + "\n");
 		}
 		}
 
